@@ -1,9 +1,11 @@
-package org.runescape.rs2.packet;
+package org.runescape.rs2.network.packet;
 
 import org.jboss.netty.buffer.ChannelBuffer;
 
 /**
- * Created by Main on 1/2/2015.
+ * Represents an incoming packet.
+ *
+ * @author Main Method
  */
 public final class Packet {
 

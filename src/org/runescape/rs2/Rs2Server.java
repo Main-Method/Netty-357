@@ -53,11 +53,23 @@ public final class Rs2Server implements Runnable {
         this.world = world;
     }
 
+    /**
+     * Boots up the Rs2Server. (Launches needed resources)
+     *
+     * @return
+     *      this class.
+     */
     public Rs2Server boot() {
         logger.info("Attempting to start "+ Rs2Constants.SERVER_NAME +"...");
         return this;
     }
 
+    /**
+     * Connects the Server to the specified port.
+     *
+     * @return
+     *      this class.
+     */
     public Rs2Server bind() {
         final ServerBootstrap serverBootstrap = new ServerBootstrap(
                 new NioServerSocketChannelFactory(

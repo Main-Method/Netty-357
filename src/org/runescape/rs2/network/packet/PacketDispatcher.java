@@ -1,7 +1,6 @@
-package org.runescape.rs2.packet;
+package org.runescape.rs2.network.packet;
 
 import org.runescape.rs2.mobile.players.Player;
-import org.runescape.rs2.mobile.players.PlayerDetails;
 
 /**
  * Dispatches server packets to the client.

@@ -43,6 +43,9 @@ public abstract class Task {
      */
     private ScheduledExecutorService scheduledExecutorService = Executors.newSingleThreadScheduledExecutor();
 
+    /**
+     * Starts a new task.
+     */
     public void initialize() {
         if(running || scheduledExecutorService.isShutdown())
             return;
@@ -51,6 +54,9 @@ public abstract class Task {
         scheduledExecutorService.scheduleAtFixedRate(new TaskManager(), 0, delay, timeUnit);
     }
 
+    /**
+     * Stops a task.
+     */
     public void terminate() {
         if (!running)
             return;

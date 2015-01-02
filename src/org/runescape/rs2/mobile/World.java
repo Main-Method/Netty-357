@@ -23,7 +23,7 @@ public class World {
      * The main world tick.
      */
     public static void execute() {
-
+        System.out.println("task completed.");
     }
 
     /**

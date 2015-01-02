@@ -1,4 +1,4 @@
-package org.runescape.rs2.packet;
+package org.runescape.rs2.network.packet;
 
 import org.jboss.netty.buffer.ChannelBuffer;
 import org.jboss.netty.buffer.ChannelBuffers;

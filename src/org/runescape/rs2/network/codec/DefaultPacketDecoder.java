@@ -6,7 +6,7 @@ import org.jboss.netty.channel.Channel;
 import org.jboss.netty.channel.ChannelHandlerContext;
 import org.jboss.netty.handler.codec.frame.FrameDecoder;
 import org.runescape.rs2.network.isaacc.ISAACCipher;
-import org.runescape.rs2.packet.Packet;
+import org.runescape.rs2.network.packet.Packet;
 
 /**
  * Decodes incoming packets(packets sent from the client).

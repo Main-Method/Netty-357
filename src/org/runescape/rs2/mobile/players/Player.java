@@ -4,7 +4,7 @@ import org.jboss.netty.channel.Channel;
 import org.runescape.rs2.mobile.Entity;
 import org.runescape.rs2.mobile.EntityType;
 import org.runescape.rs2.network.isaacc.ISAACCipher;
-import org.runescape.rs2.packet.PacketDispatcher;
+import org.runescape.rs2.network.packet.PacketDispatcher;
 import org.runescape.utility.Rs2Constants;
 
 import java.net.InetSocketAddress;

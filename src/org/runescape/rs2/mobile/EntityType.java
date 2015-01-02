@@ -8,7 +8,7 @@ package org.runescape.rs2.mobile;
 public enum EntityType {
 
     /**
-     * An in-game players.
+     * An in-game player.
      */
     PLAYER,
 }

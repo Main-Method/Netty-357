@@ -6,7 +6,7 @@ import org.jboss.netty.channel.ChannelHandlerContext;
 import org.jboss.netty.handler.codec.frame.FrameDecoder;
 import org.runescape.rs2.network.codec.login.Rs2LoginDecoder;
 import org.runescape.rs2.network.codec.login.Rs2LoginDecoderState;
-import org.runescape.rs2.packet.StreamBuffer;
+import org.runescape.rs2.network.packet.StreamBuffer;
 
 import java.net.InetSocketAddress;
 import java.security.SecureRandom;
